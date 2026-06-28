@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rahul Kumar | Software Engineer & Creative Coder</title>
+<meta name="description" content="Rahul Kumar —  Software Engineer specializing in React, Python & modern web experiences. MCA, Chandigarh University. Explore projects, skills & certifications.">
+<meta name="keywords" content="Rahul Kumar, Full Stack Developer, React Developer, Portfolio, Web Developer, Python Developer">
+<meta property="og:title" content="Rahul Kumar |  Software Engineer">
+<meta property="og:description" content="Building fast, elegant, modern web experiences.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page-veil" id="veil"><span>Loading Experience</span></div>
+
+<div class="bg-fixed"><div class="grid-overlay"></div></div>
+<canvas id="particles"></canvas>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<header id="siteHeader">
+  <div class="wrap">
+    <nav>
+      <a href="#home" class="logo"><span class="dot"></span>Rahul<span class="gradient-text">.dev</span></a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Let's Talk</a>
+      <div class="burger" id="burger"><span></span><span></span><span></span></div>
+    </nav>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#education">Education</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="hero-kicker"><span class="pulse-dot"></span> This Is Rahul Roy World</div>
+      <h1>
+        <span class="line"><span>Building digital</span></span>
+        <span class="line"><span>experiences with</span></span>
+        <span class="line"><span class="gradient-text">code &amp; creativity.</span></span>
+      </h1>
+      <p class="hero-desc">
+        I'm <strong style="color:var(--text-hi)">Rahul Kumar</strong>, a Full Stack Developer crafting fast, 
+        scalable, and user-centric web applications — blending modern frontend technologies with robust backend development 
+        to deliver exceptional digital experiences. Currently completing my MCA at Chandigarh University.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View My Work →</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><b>20+</b><span>Projects Shipped</span></div>
+        <div class="hero-stat"><b>10+</b><span>Core Skills</span></div>
+        <div class="hero-stat"><b>1+</b><span>Years Learning</span></div>
+        <div class="hero-stat"><b>5</b><span>Certifications</span></div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="orbit-wrap">
+        <div class="orbit-ring r1"><span class="orbit-dot"></span></div>
+        <div class="orbit-ring r2"><span class="orbit-dot"></span></div>
+        <div class="orbit-ring r3"><span class="orbit-dot"></span></div>
+      </div>
+      <div class="portrait-frame">
+        <img src="img/Untitled design.png" alt="Portrait of Rahul Kumar">
+        <div class="portrait-badge"><span class="ico">⚡</span> Full-Stack Dev</div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-cue"><span>Scroll</span><span class="stick"></span></div>
+</section>
+
+<!-- DASHBOARD STATS -->
+<section id="dashboard">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Overview</div>
+      <h2 class="section-title">My journey, <span class="gradient-text">at a glance.</span></h2>
+      <p class="section-sub">A quick snapshot of the projects, skills, and milestones that shape my work as a developer.</p>
+    </div>
+    <div class="stat-grid">
+      <div class="glass stat-card reveal reveal-delay-1">
+        <div class="stat-icon">🚀</div>
+        <div class="stat-num" data-count="20">0</div>
+        <div class="stat-label">Total Projects</div>
+      </div>
+      <div class="glass stat-card reveal reveal-delay-2">
+        <div class="stat-icon">🧠</div>
+        <div class="stat-num" data-count="10">0</div>
+        <div class="stat-label">Skills</div>
+      </div>
+      <div class="glass stat-card reveal reveal-delay-3">
+        <div class="stat-icon">🎓</div>
+        <div class="stat-num" data-count="5">0</div>
+        <div class="stat-label">Certifications</div>
+      </div>
+      <div class="glass stat-card reveal reveal-delay-4">
+        <div class="stat-icon">💼</div>
+        <div class="stat-num" data-count="6">0</div>
+        <div class="stat-label">Month Experience</div>
+      </div>
+      <div class="glass stat-card reveal reveal-delay-4">
+        <div class="stat-icon">📚</div>
+        <div class="stat-num" data-count="2">0</div>
+        <div class="stat-label">Degrees</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap about-grid">
+    <div class="about-visual reveal">
+      <img src="img/Untitled design.png" alt="Rahul Kumar working">
+      <div class="about-tagline">Code is my canvas, the browser is my gallery.</div>
+    </div>
+    <div class="about-body reveal reveal-delay-1">
+      <div class="eyebrow">About Me</div>
+      <h2 class="section-title">Hi, I'm Rahul — <span class="gradient-text">I build for the web.</span></h2>
+      <p class="about-highlight">A developer who believes great software sits at the intersection of clean engineering and thoughtful design.</p>
+      <p>I'm a <strong>full-stack developer</strong> currently pursuing my <strong>MCA at Chandigarh University</strong>, with a foundation in Physics from <strong>T.N.B College, Bhagalpur</strong>. My path into tech has been driven by curiosity — starting with how websites work, and growing into building complete products from database to deployment.</p>
+      <p>I specialize in the <strong>JavaScript + NodeJs</strong> stack, with hands-on experience in MySQL, WordPress, and SEO.</p>
+      <p>I am passionate about <strong>Data Structures and Algorithms (DSA)</strong> and enjoy solving challenging problems using <strong>Java</strong>. I continuously improve my problem-solving skills by practicing algorithmic concepts and writing efficient, optimized code.</p>
+
+      <div class="about-tags">
+        <span>Problem Solver</span>
+        <span>Detail-Oriented</span>
+        <span>Fast Learner</span>
+        <span>Team Player</span>
+        <span>Curious Person</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Background</div>
+      <h2 class="section-title">Education &amp; <span class="gradient-text">Qualifications.</span></h2>
+      <p class="section-sub">My academic path — from the fundamentals of physics to advanced computer applications.</p>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item reveal reveal-delay-1">
+        <div class="timeline-dot">🎓</div>
+        <div class="glass edu-card">
+          <div class="edu-top">
+            <div class="edu-degree">Intermediate</div>
+            <div class="edu-year">Completed 2019</div>
+          </div>
+          <div class="edu-school">+2 High School Kajra </div>
+          <div class="edu-desc">Completed Higher Secondary education with a focus on Physics, Mathematics, and Science subjects, developing strong analytical, logical, and problem-solving skills that continue to support my journey in technology and software development.</div>
+        </div>
+      </div>
+    <div class="timeline">
+      <div class="timeline-item reveal reveal-delay-1">
+        <div class="timeline-dot">🎓</div>
+        <div class="glass edu-card">
+          <div class="edu-top">
+            <div class="edu-degree">Master of Computer Applications (MCA)</div>
+            <div class="edu-year">Completed 2026</div>
+          </div>
+          <div class="edu-school">Chandigarh University</div>
+          <div class="edu-desc">Advanced coursework in software engineering, full-stack web development, databases, and computer networks — building the technical foundation behind every project in this portfolio.</div>
+        </div>
+      </div>
+      <div class="timeline-item reveal reveal-delay-2">
+        <div class="timeline-dot">🔬</div>
+        <div class="glass edu-card">
+          <div class="edu-top">
+            <div class="edu-degree">B.Sc. in Physics</div>
+            <div class="edu-year">Completed 2023</div>
+          </div>
+          <div class="edu-school">T.N.B College, Bhagalpur</div>
+          <div class="edu-desc">Built a strong analytical and problem-solving foundation through the study of physics — skills that now translate directly into structured, logical software development.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Capabilities</div>
+      <h2 class="section-title">Tools I use to <span class="gradient-text">bring ideas to life.</span></h2>
+      <p class="section-sub">A blend of front-end craft, back-end logic, and the growth tools that help products get found.</p>
+    </div>
+
+    <div class="skills-layout">
+      <div class="reveal reveal-delay-1">
+        <div class="skill-row" data-pct="92">
+          <div class="skill-top"><span>HTML</span><span class="pct">92%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-row" data-pct="88">
+          <div class="skill-top"><span>CSS</span><span class="pct">88%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-row" data-pct="85">
+          <div class="skill-top"><span>JavaScript</span><span class="pct">85%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-row" data-pct="50">
+          <div class="skill-top"><span>Python</span><span class="pct">50%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-row" data-pct="75">
+          <div class="skill-top"><span>React</span><span class="pct">75%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-row" data-pct="89">
+          <div class="skill-top"><span>MySql</span><span class="pct">89%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-row" data-pct="70">
+          <div class="skill-top"><span>Java</span><span class="pct">70%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-row" data-pct="80">
+          <div class="skill-top"><span>Node Js</span><span class="pct">80%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+      </div>
+
+      <div class="badge-grid reveal reveal-delay-2">
+        <div class="glass skill-badge" data-pct="78">
+          <div class="skill-ring"><svg width="64" height="64" viewBox="0 0 64 64">
+            <circle class="track" cx="32" cy="32" r="26"></circle>
+            <circle class="fill" cx="32" cy="32" r="26"></circle>
+          </svg></div>
+          <div class="skill-name">React</div>
+          <div class="skill-pct">78%</div>
+        </div>
+        <div class="glass skill-badge" data-pct="75">
+          <div class="skill-ring"><svg width="64" height="64" viewBox="0 0 64 64">
+            <circle class="track" cx="32" cy="32" r="26"></circle>
+            <circle class="fill" cx="32" cy="32" r="26"></circle>
+          </svg></div>
+          <div class="skill-name">MySQL</div>
+          <div class="skill-pct">75%</div>
+        </div>
+        <div class="glass skill-badge" data-pct="82">
+          <div class="skill-ring"><svg width="64" height="64" viewBox="0 0 64 64">
+            <circle class="track" cx="32" cy="32" r="26"></circle>
+            <circle class="fill" cx="32" cy="32" r="26"></circle>
+          </svg></div>
+          <div class="skill-name">SEO</div>
+          <div class="skill-pct">82%</div>
+        </div>
+        <div class="glass skill-badge" data-pct="70">
+          <div class="skill-ring"><svg width="64" height="64" viewBox="0 0 64 64">
+            <circle class="track" cx="32" cy="32" r="26"></circle>
+            <circle class="fill" cx="32" cy="32" r="26"></circle>
+          </svg></div>
+          <div class="skill-name">WordPress</div>
+          <div class="skill-pct">70%</div>
+        </div>
+      </div>
+    </div>
+
+    <svg width="0" height="0" style="position:absolute">
+      <defs>
+        <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#22d3ee"/>
+          <stop offset="50%" stop-color="#3b82f6"/>
+          <stop offset="100%" stop-color="#a855f7"/>
+        </linearGradient>
+      </defs>
+    </svg>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Selected Work</div>
+      <h2 class="section-title">Projects I've <span class="gradient-text">built &amp; shipped.</span></h2>
+      <p class="section-sub">A mix of full-stack apps, automation tools, and content-driven sites — each solving a real problem.</p>
+    </div>
+
+    <div class="project-filter reveal reveal-delay-1">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web Apps</button>
+      <button class="filter-btn" data-filter="python">Python</button>
+      <button class="filter-btn" data-filter="wp">WordPress</button>
+    </div>
+
+    <div class="project-grid">
+      <div class="glass project-card reveal reveal-delay-1" data-cat="web">
+        <div class="project-thumb">
+          <span class="project-tag">WEB APP</span>
+          <img src="img/p1.png" alt="Task management dashboard interface">
+        </div>
+        <div class="project-body">
+          <div class="project-title">Ticket-Boking Form</div>
+          <p class="project-desc">A responsive ticket booking application designed to provide a seamless reservation experience with interactive form.
+     .</p>
+          <div class="project-stack"><span>html</span><span>css</span><span>javascript</span></div>
+          <div class="project-links">
+            <a href="https://rahulguptams.github.io/TicketForm-form/" class="plink live">🔗 Live Demo</a>
+            <a href="https://github.com/RahulGuptaMS/TicketForm-form" class="plink code">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass project-card reveal reveal-delay-2" data-cat="python">
+        <div class="project-thumb">
+          <span class="project-tag">PYTHON</span>
+          <img src="img/2.png" alt="Data analytics charts on screen">
+        </div>
+        <div class="project-body">
+          <div class="project-title">Movie Ticket booking</div>
+          <p class="project-desc">An automated reporting tool that scrapes, cleans, and visualizes sales data with weekly email digests.</p>
+          <div class="project-stack"><span>CSS</span><span>javascript</span><span>nodejs</span></div>
+          <div class="project-links">
+            <a href="https://quick-show-client-bay.vercel.app/" class="plink live">🔗 Live Demo</a>
+            <a href="https://github.com/RahulGuptaMS/QuickShow-Deploy" class="plink code">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass project-card reveal reveal-delay-3" data-cat="wp">
+        <div class="project-thumb">
+          <span class="project-tag">Student management</span>
+          <img src="img/4.png" alt="E-commerce website on laptop screen">
+        </div>
+        <div class="project-body">
+          <div class="project-title">Student management</div>
+          <p class="project-desc">Designed and developed a desktop application using Java and NetBeans, implementing object-oriented programming.
+.</p>
+          <div class="project-stack"><span>Advance Java</span><span>Mysql</span><span>Hibernate</span></div>
+          <div class="project-links">
+            <a href="https://github.com/Harshal-Bsys27/student-management-system/commit/b50ef2a4cee9b3b43b35a0d301616da6bb059952" class="plink live">🔗 Live Demo</a>
+            <a href="https://github.com/RahulGuptaMS/Student-Management-/tree/main" class="plink code">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass project-card reveal reveal-delay-1" data-cat="web">
+        <div class="project-thumb">
+          <span class="project-tag">WEB APP</span>
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop" alt="Finance app interface with charts">
+        </div>
+        <div class="project-body">
+          <div class="project-title">BudgetBuddy</div>
+          <p class="project-desc">A personal finance tracker with expense categorization, monthly insights, and budget alerts.</p>
+          <div class="project-stack"><span>React</span><span>Chart.js</span><span>MySQL</span></div>
+          <div class="project-links">
+            <a href="#" class="plink live">🔗 Live Demo</a>
+            <a href="#" class="plink code">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass project-card reveal reveal-delay-2" data-cat="python">
+        <div class="project-thumb">
+          <span class="project-tag">JavaScript</span>
+          <img src="img/5.png" alt="Quizz Web">
+        </div>
+        <div class="project-body">
+          <div class="project-title">TestBook Quiz</div>
+          <p class="project-desc">  created a Quizz  Website just like testbook  and deployed on sever real word woking (Honstinger)          .</p>
+          <div class="project-stack"><span>Html</span><span>Css</span><span>js&Mysql</span></div>
+          <div class="project-links">
+            <a href="https://rajshamanipodcast.in/" class="plink live">🔗 Live Demo</a>
+            <a href="https://rajshamanipodcast.in/" class="plink code">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass project-card reveal reveal-delay-3" data-cat="wp">
+        <div class="project-thumb">
+          <span class="project-tag">WORDPRESS</span>
+          <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=800&auto=format&fit=crop" alt="Blog website layout on screen">
+        </div>
+        <div class="project-body">
+          <div class="project-title">Cu Question Paper — Blog Platform</div>
+          <p class="project-desc">WordPress website dedicated to providing Chandigarh University previous year question papers..</p>
+          <div class="project-stack"><span>WordPress</span><span>PHP</span><span>SEO</span></div>
+          <div class="project-links">
+            <a href="https://icoteky.com/" class="plink live">🔗 Live Demo</a>
+            <a href="https://icoteky.com/" class="plink code">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Credentials</div>
+      <h2 class="section-title">Certifications &amp; <span class="gradient-text">training.</span></h2>
+      <p class="section-sub">Continuous learning that keeps my skills sharp and current.</p>
+    </div>
+    <div class="cert-grid">
+      <div class="glass cert-card reveal reveal-delay-1">
+        <div class="cert-ic">♨️</div>
+        <div><div class="cert-name">java</div><div class="cert-issuer">IBM/COURSERA</div></div>
+      </div>
+      <div class="glass cert-card reveal reveal-delay-2">
+        <div class="cert-ic">⚛️</div>
+        <div><div class="cert-name">React — The Complete Guide</div><div class="cert-issuer">Udemy</div></div>
+      </div>
+      <div class="glass cert-card reveal reveal-delay-3">
+        <div class="cert-ic">📈</div>
+        <div><div class="cert-name">SEO Fundamentals</div><div class="cert-issuer">Coursera</div></div>
+      </div>
+      <div class="glass cert-card reveal reveal-delay-4">
+        <div class="cert-ic">🟢</div>
+        <div><div class="cert-name">NodeJs</div><div class="cert-issuer">Infosis</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="wrap">
+    <div class="glass contact-card reveal">
+      <div class="eyebrow" style="justify-content:center;">Let's Connect</div>
+      <h2>Have a project in mind? <span class="gradient-text">Let's build it.</span></h2>
+      <p>I'm currently open to freelance work, internships, and collaborative projects. Drop a message — I usually reply within a day.</p>
+      <div class="contact-actions">
+        <a href="https://wa.me/918825190233" target="_blank" class="btn btn-primary">💬 Message on WhatsApp</a>
+        <a href="tel:+918825190233" class="btn btn-ghost">📞 Call Me</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-cta-text reveal">
+        If you like this portfolio and want to create one like this, connect with me on
+        <a href="https://wa.me/918825190233" target="_blank">WhatsApp</a> or Call:
+        <a href="tel:+918825190233">8825190233</a>
+      </div>
+      <div class="social-row reveal reveal-delay-1">
+        <a href="https://wa.me/918825190233" target="_blank" class="social-ic" aria-label="WhatsApp" title="WhatsApp">💬</a>
+        <a href="tel:+918825190233" class="social-ic" aria-label="Phone" title="Call">📞</a>
+        <a href="https://www.linkedin.com/in/rahul-kr-mca/" target="_blank" class="social-ic" aria-label="LinkedIn" title="LinkedIn">in</a>
+        <a href="https://github.com/RahulGuptaMS" target="_blank" class="social-ic" aria-label="GitHub" title="GitHub">⌥</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Rahul Kumar. All rights reserved.</span>
+      <span>Developed with <span class="heart">❤️</span> by Rahul Kumar</span>
+    </div>
+  </div>
+</footer>
+
+<div class="to-top" id="toTop">↑</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
